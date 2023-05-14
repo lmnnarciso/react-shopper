@@ -1,7 +1,8 @@
 {
   "name": "react-shopper",
-  "description": "React 18 starter template with TypeScript",
+  "description": "React 18 with Webpack and TypeScript",
   "version": "1.0.0",
+  "author": "Noqx Engineering <engineering@noqx.io>",
   "main": "src/index.tsx",
   "license": "MIT",
   "scripts": {
