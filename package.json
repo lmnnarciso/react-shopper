@@ -8,7 +8,7 @@
   "scripts": {
     "start": "webpack-cli serve --mode=development --env development --open --hot",
     "build": "webpack --mode=production --env production --progress",
-    "check:types": "tsc --noEmit",
+    "tsc": "tsc --noEmit",
     "lint": "eslint './src/**/*.{ts,tsx,js,jsx}'",
     "lint:fix": "eslint './src/**/*.{ts,tsx,js,jsx}' --fix",
     "prettier": "prettier --check src"
