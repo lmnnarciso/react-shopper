@@ -10,7 +10,8 @@
     "build": "webpack --mode=production --env production --progress",
     "check:types": "tsc --noEmit",
     "lint": "eslint './src/**/*.{ts,tsx,js,jsx}'",
-    "lint:fix": "eslint './src/**/*.{ts,tsx,js,jsx}' --fix"
+    "lint:fix": "eslint './src/**/*.{ts,tsx,js,jsx}' --fix",
+    "prettier": "prettier --check src"
   },
   "devDependencies": {
     "@types/node": "16.18.25",
