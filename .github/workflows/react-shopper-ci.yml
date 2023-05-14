@@ -28,5 +28,5 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run check:types
-    - run: npm lint
-    - run: npm prettier
+    - run: npm run lint
+    - run: npm run prettier
