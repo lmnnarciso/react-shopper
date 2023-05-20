@@ -5,10 +5,11 @@ export interface ShoppingBasketProps {
 }
 
 export function ShoppingBasket({ prices }: ShoppingBasketProps) {
+  const sumOfBasket = prices.reduce((acc, cur) => cur + acc, 0)
   return (
     <>
       <h1>ShoppingBasket</h1>
-      <p>Amount (USD): {prices.length ? prices.map((x) => `${x} + `) : 0}</p>
+      <p>Amount (USD): {sumOfBasket}</p>
     </>
   )
 }
